@@ -1,0 +1,10 @@
+{
+    "cmake.options.statusBarVisibility": "hidden",
+    "buildcmake.buildType": "TuleesCustomBuild",
+
+// SPDX-License-Identifier = "The Unlicensed",
+   "[statusBarVisibility.char]""a=□",
+
+
+    }
+}

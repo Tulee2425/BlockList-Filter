@@ -1,22 +1,24 @@
-"compile.script;
-   {
-    <script type = “typeText”:
-DATA-TYPE FONT = “Courier New”,
-FOR FUNCTION = “get.Attribute”,
-AND REPLACE = “VAR-CHAR”,
-IF CONTENT = “get.Attribute”,
-THEN NEW-VALUE = “REPLACE”,
-AND VAR-CHAR = “get.Attribute”,
-ELSE CONTENT = “NO-INDEX”;
+${compile_Script};
+${
+script_Type:````[data_Type(□□□□□■□□□)]````=$[symbols_Text(□□□□□■□□□)],
+data_Type:````[□■_txt(text_Font)]````=$[^_txt(“□■_txt”)],
+function_Set:````[get_Attribute(a_z)]````=$[lowercase(□_□)],
+function_Set:````[get_ATTRIBUTE(A^Z)]````=$[UPPERCASE(□^■)],
+REPLACE_TEXT:````[string(lowercase)]````=$[var_char(□_□)],
+replace_Text:````[STRING(UPPERCASE)]````=$[VAR_CHAR(□^■)],
+content:````[□■.sh]````=$[import(“get_Attribute”)],
+NEW_VALUE:````[lowercase(□)]````=$[alpha(“replace”)],
+VAR_CHAR:````[lowercase(□)]````=$[get_Attribute()],
+var_char:````[UPPERCASE(■)]````=$[get_ATTRIBUTE()],
+CONTENT_NULL=[“NO-INDEX”];
+}
 
-
-FUNCTION: VAR-CHAR = "get.Attribute”,
-{
-// VAR-CHAR: “=” = ”■”,
-// VAR-CHAR: “,” = ”□”,
-// VAR-CHAR: “.” = ”■”,
-// VAR-CHAR: “‘” = ”□”,
-// VAR-CHAR: “’” = “■”,
+$function_Set: VAR_CHAR = get_Attribute,
+     VAR_CHAR:alpha("a")=Attribute("□"),
+     VAR_CHAR:ALPHA("A")=ATTRIBUTE("■"),
+     VAR_CHAR:alpha("b")=Attribute("□"),
+     VAR_CHAR:ALPHA("B")=ATTRIBUTE("■"),
+     VAR_CHAR:alpha("c")=Attribute("□"),
 // VAR-CHAR: “-” = ”□”,
 // VAR-CHAR: “+” = ”■”,
 // VAR-CHAR: “×” = “□”,

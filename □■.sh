@@ -1,4 +1,4 @@
-#: $compile.script;
+"compile.script;
    {
     <script type = “typeText”:
 DATA-TYPE FONT = “Courier New”,

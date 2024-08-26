@@ -1,8 +1,33 @@
 {
-    "cmake.options.statusBarVisibility": "hidden",
-"buildcmake.buildType": "TuleesCustomBuild",
+// "settings.json",
+// "cmake.options.statusBarVisibility:hidden":
+//     "buildcmake.buildType":"TuleesCustomBuild",
 
+// License-Identifier = "The Unlicensed";
 
+// "statusBarVisibility":false,
+// "jsonc":true,
 
-    }
+// editor.quickSuggestions,
+// asp.net-coreRazor:searchTerm,
+//         "<on>":true,
+//         "comments":false,
+//         "strings":null,
+        
+// editor.suggest.insertMode:"replace",
+//                 "[hexasymbol]":true,
+//                 "if":a=a,
+//                 "then":□=a,
+//                 "and":a=□,
+//              "editor.acceptSuggestionOnCommitCharacter":true,
+   
+//     "editor.suggest.insertMode": "replace",
+   
+   
+//     {editor.quickSuggestions},
+//         strings: true,
+//         boolean: true,
+//         symbols: true, 
+    
+//     "editor.suggest.insertMode":replace,
 }

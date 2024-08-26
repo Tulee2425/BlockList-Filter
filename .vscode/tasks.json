@@ -3,7 +3,8 @@
 	"tasks": [
 		{
 			"type": "go",
-			"label": "go: build package",
+			"label": "□■.src",
+			"build package": "command",
 			"command": "build",
 			"args": [
 				"${https://super-duper-waddle-jj46w6ww44rqfp7p7.github.dev/□■.src}"
